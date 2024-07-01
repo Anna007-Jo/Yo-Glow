@@ -1,4 +1,4 @@
-/* CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 .Brand {
@@ -33,7 +33,7 @@ body, html {
     list-style: none;
     display: flex;
     font-size: 16px;
-    gap: 20px; /* Adjust spacing between list items */
+    gap: 20px; 
     flex-shrink: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -43,7 +43,7 @@ body, html {
 .icons {
     display: flex;
     align-items: center;
-    gap: 20px; /* Adjust spacing between icons */
+    gap: 20px; 
 }
 
 .icons img {
@@ -86,16 +86,16 @@ body, html {
 }
 
 .categoryimg .img {
-    flex: 1; /* Equal distribution of space */
-    text-align: center; /* Center the image horizontally */
-    margin: 10px; /* Adjust margin between images */
+    flex: 1; 
+    text-align: center; 
+    margin: 10px; 
 }
 
 .categoryimg .img img {
-    width: 100%; /* Ensure the image fills its container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make images round */
-    overflow: hidden; /* Hide overflow for round shape */
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    overflow: hidden;
     padding-top: 18px;
 }
 
@@ -115,7 +115,7 @@ body, html {
 .seller{
     
     font-size: 30px;
-    text-align: center; /* Center align the text */
+    text-align: center;
     padding: 40px;
     margin-top: 20px;
 }
@@ -128,8 +128,8 @@ body, html {
     width: 280px;
 }
 .productdetails {
-    width: 100%; /* Ensure it takes the full width of the parent */
-    text-align: center; /* Center align the text */
+    width: 100%; 
+    text-align: center; 
     padding-top: 15px;
     padding-bottom: 10px;
     font-size: 14.5px;
@@ -137,15 +137,15 @@ body, html {
 
 .pandc {
      
-     /* Space out the price and cart */
+     
     align-items: center;
     font-size: 13px;
     margin: 0;
-     /* Optional: Add padding to the left and right */
+     
 }
 
 .price {
-    flex-grow: 1; /* Allow the price to take remaining space */
+    flex-grow: 1; 
     text-align: center;
     margin-bottom: 14px;
     font-size: 14px;
@@ -154,7 +154,7 @@ body, html {
 }
 
 .cart {
-    flex-grow: 1; /* Allow the cart to take remaining space */
+    flex-grow: 1; 
     text-align: center; 
     padding: 8px;
     background-color: palegoldenrod ;
@@ -163,12 +163,12 @@ body, html {
 
 .Whymecontainer {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
     padding: 20px;
    margin-top: 50px;
     justify-content: space-between;
-    background-color: rgb(250, 237, 248); /* Set background color */
-    gap: 20px; /* Add spacing between items */
+    background-color: rgb(250, 237, 248); 
+    gap: 20px; 
     font-family: 'Montserrat', sans-serif;
      
      
@@ -177,21 +177,21 @@ body, html {
 
 .whyme {
     flex: 1;
-    max-width: 200px; /* Adjust maximum width */
-    text-align: center; /* Center align text */
+    max-width: 200px;  
+    text-align: center;  
     align-items: center;
-    margin: 10px; /* Add margin */
+    margin: 10px; 
 }
 
 .whyme img {
     height: 40px;
     width: 40px;
-    margin-bottom: 10px; /* Add spacing below the image */
+    margin-bottom: 10px; 
 }
 
 .reason {
     font-weight: bold;
-    margin-bottom: 10px; /* Add spacing below the heading */
+    margin-bottom: 10px;  
 }
 
 .text {
@@ -200,7 +200,7 @@ body, html {
     font-size: small;
 }
 
-/* Media queries for responsive design */
+ 
 @media (max-width: 768px) {
     .ul {
         font-size: 14px;
@@ -212,7 +212,7 @@ body, html {
     }
 
     .whyme {
-        max-width: 100%; /* Allow full width on small screens */
+        max-width: 100%;  
         margin: 0;
     }
 }
@@ -223,32 +223,32 @@ body, html {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Center items vertically */
-    justify-content: space-around; /* Space items evenly */
+    align-items: center;  
+    justify-content: space-around;  
 }
 
 .finalimg img {
     margin: 20px;
-    max-width: 100%; /* Ensure image stays within container */
+    max-width: 100%; 
 }
 
 .finaltext {
-    flex: 1; /* Allow text to expand */
-    padding: 20px; /* Add padding for spacing */
+    flex: 1; 
+    padding: 20px;  
     font-size: large;
     margin-bottom: 30px;
 }
 
 .heading {
-    font-size: 24px; /* Larger font size for heading */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 10px; /* Space between heading and paragraph */
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-bottom: 10px;  
 }
 
 .abouttext {
-    font-size: 16px; /* Adjust font size */
-    line-height: 1.6; /* Set line height for readability */
-    color: #333; /* Adjust text color */
+    font-size: 16px;  
+    line-height: 1.6;  
+    color: #333; 
 }
 .footer{
     padding: 70px;
