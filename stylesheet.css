@@ -61,19 +61,16 @@ body, html {
 .separator {
     font-size: 30px;
     text-align: center;
-    height: 0.5em;
     border-bottom: 2px solid black;
     margin-bottom: 0.5em;
+    line-height: 0.1em;
+    padding: 10px 0;
+     
 }
 
-.separator:first-line {
-    background-color: beige;
-}
-
-.separator:before,
-.separator:after {
-    content: "__";
-    background-color: beige;
+.separator span {
+    background: rgb(244, 247, 210); /* Match the background color */
+    padding: 0 10px;
 }
 
 .categoryimg {
