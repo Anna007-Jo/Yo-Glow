@@ -61,9 +61,9 @@ body, html {
 .separator {
     font-size: 30px;
     text-align: center;
-    height: 0.3em;
+    height: 0.0em;
     border-bottom: 2px solid black;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.0em;
 }
 
 .separator:first-line {
