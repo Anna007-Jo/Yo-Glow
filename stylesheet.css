@@ -58,23 +58,8 @@ body, html {
     margin-bottom: 80px;
 }
 
-.separator {
-    font-size: 30px;
-    text-align: center;
-    height: 0.0em;
-    border-bottom: 2px solid black;
-    margin-bottom: 0.0em;
-}
-
-.separator:first-line {
-    background-color: beige;
-}
-
-.separator:before,
-.separator:after {
-    content: "__";
-    background-color: beige;
-}
+h2 { width:100%; text-align:center; border-bottom: 1px solid #000; line-height:0.1em; margin:10px 0 20px; } 
+h2 span { background:#fff; padding:0 10px; }
 
 .categoryimg {
     display: flex;
